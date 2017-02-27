@@ -1,5 +1,4 @@
-class Factorialize
-
+module Factorialize
     def self.factorialize(n)
         if(n < 0)
             -1
@@ -10,7 +9,4 @@ class Factorialize
     end
 end
 
-p Factorialize.factorialize(1)
-
-
-
+p Factorialize.factorialize(5)
